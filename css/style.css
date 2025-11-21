@@ -22,30 +22,30 @@ body{
 @keyframes glow{
     0%, 100%{
         color: #fff;
-        text-shadow: 0 0 12px #39c6d6, 0 0 50px #39c6d6, 0 0 100px #39c6d6;
+        text-shadow: 0 0 8px #39c6d6, 0 0 30px #39c6d6;
     }
     10%, 90%{
         color: #111;
         text-shadow: none;
     }
 }
+.greetings > span:nth-child(1){
+    animation-delay: 0s ;
+}
 .greetings > span:nth-child(2){
-    animation-delay: .1s ;
+    animation-delay: .12s ;
 }
 .greetings > span:nth-child(3){
-    animation-delay: .3s ;
+    animation-delay: .24s;
 }
 .greetings > span:nth-child(4){
-    animation-delay: .5s;
+    animation-delay: .36s;
 }
 .greetings > span:nth-child(5){
-    animation-delay: .7s;
+    animation-delay: .48s;
 }
 .greetings > span:nth-child(6){
-    animation-delay: .9s;
-}
-.greetings > span:nth-child(7){
-    animation-delay: 1.0s;
+    animation-delay: .60s;
 }
 
 .description{
